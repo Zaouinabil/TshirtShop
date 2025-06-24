@@ -1,0 +1,12 @@
+/* src/product/Accueil.css */
+.accueil-wrapper {
+  @apply flex justify-center items-center w-full min-h-[70vh];
+}
+
+.accueil-box {
+  @apply bg-white p-10 rounded-lg shadow-lg text-center w-full max-w-3xl;
+}
+
+.cta-btn {
+  @apply bg-green-600 text-white px-6 py-2 rounded mt-6 inline-block hover:bg-green-700 transition;
+}
