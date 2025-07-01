@@ -1,0 +1,27 @@
+/* src/panier/Panier.css */
+
+.titre-panier {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  color: #333;
+}
+
+.texte-vide {
+  text-align: center;
+  font-style: italic;
+  color: #777;
+  margin: 2rem 0;
+}
+
+.img-thumbnail {
+  border-radius: 8px;
+  object-fit: contain;
+  background-color: #f5f5f5;
+}
+
+.table th,
+.table td {
+  vertical-align: middle !important;
+  text-align: center;
+}

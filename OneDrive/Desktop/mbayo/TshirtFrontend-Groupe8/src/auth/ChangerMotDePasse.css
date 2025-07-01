@@ -1,0 +1,54 @@
+.changer-mdp-container {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 2rem;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.05);
+  background-color: #fff;
+  font-family: Arial, sans-serif;
+}
+
+.changer-mdp-container h2 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  color: #222;
+}
+
+.changer-mdp-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.changer-mdp-container input {
+  margin-bottom: 1rem;
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.changer-mdp-container button {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 12px;
+  font-size: 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.changer-mdp-container button:hover {
+  background-color: #218838;
+}
+
+.message {
+  margin-top: 1rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.message:before {
+  content: "ℹ️ ";
+}

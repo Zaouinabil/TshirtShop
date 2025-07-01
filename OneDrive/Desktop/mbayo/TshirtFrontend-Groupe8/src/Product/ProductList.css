@@ -1,0 +1,49 @@
+/*Product/ProductList.css */
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 1rem;
+}
+
+.product-item {
+  width: 220px;
+}
+
+.produit-card {
+  border: 1px solid #dee2e6;
+  border-radius: 12px;
+  padding: 16px;
+  background-color: #ffffff;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.produit-card:hover {
+  transform: scale(1.03);
+  box-shadow: 0 6px 20px rgba(28, 21, 21, 0.08);
+}
+
+.produit-image {
+  height: 180px;
+  width: 100%;
+  object-fit: contain;
+  background-color: #f8f8f8;
+  border-radius: 8px;
+  padding: 10px;
+}
+
+.bouton-ajouter {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.bouton-ajouter:hover {
+  background-color: #0056b3;
+}

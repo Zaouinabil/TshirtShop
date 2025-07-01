@@ -1,0 +1,6 @@
+/* يمنع الscroll الزائد من الbody */
+body {
+  overflow-y: auto;      /* يظهر فقط عند الحاجة */
+  margin: 0;
+  padding: 0;
+}

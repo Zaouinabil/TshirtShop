@@ -1,0 +1,11 @@
+.faq-list {
+  list-style: none;
+  padding: 0;
+}
+
+.faq-list li {
+  margin-bottom: 20px;
+  line-height: 1.6;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 10px;
+}

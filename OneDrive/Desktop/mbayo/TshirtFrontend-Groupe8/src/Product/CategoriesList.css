@@ -1,0 +1,33 @@
+.categories-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 1rem;
+}
+
+.categorie-btn {
+  width: 200px;
+}
+
+.categorie-item {
+  width: 200px;
+}
+
+.categorie-card {
+  transition: transform 0.2s ease;
+  border-radius: 10px;
+  overflow: hidden;
+  border: 1px solid #ddd;
+}
+
+.categorie-card:hover {
+  transform: scale(1.03);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.categorie-image {
+  height: 190px;
+  object-fit: contain;
+  border-bottom: 1px solid #eee;
+}

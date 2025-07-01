@@ -1,0 +1,94 @@
+.header {
+  background-color: #0f172a; /* Même fond que le footer */
+  color: #f1f5f9;
+  padding: 16px 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'Segoe UI', sans-serif;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.header .left-section {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.header .left-section img {
+  height: 40px;
+}
+
+.header .left-section span {
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.header input[type="text"] {
+  width: 300px;
+  padding: 8px 16px;
+  border-radius: 9999px;
+  border: none;
+  outline: none;
+  color: #0f172a;
+}
+
+.header nav {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.header nav a {
+  color: #94a3b8;
+  text-decoration: none;
+  font-size: 0.95rem;
+  transition: color 0.2s ease;
+}
+
+.header nav a:hover {
+  color: #38bdf8;
+  text-decoration: underline;
+}
+
+.header nav .logout-btn {
+  background-color: #ef4444;
+  padding: 6px 12px;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: background-color 0.2s ease;
+}
+
+.header nav .logout-btn:hover {
+  background-color: #dc2626;
+}
+
+.header .panier-icon {
+  position: relative;
+  font-size: 1.2rem;
+}
+
+.header .panier-badge {
+  position: absolute;
+  top: -6px;
+  right: -10px;
+  background-color: #ef4444;
+  color: white;
+  font-size: 0.7rem;
+  width: 18px;
+  height: 18px;
+  border-radius: 999px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.site-name {
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-left: 8px;
+  color: #38bdf8;
+}

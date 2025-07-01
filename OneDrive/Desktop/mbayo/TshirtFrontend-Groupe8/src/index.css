@@ -1,0 +1,21 @@
+/* src/index.css */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body, #root {
+  height: 100%;
+  margin: 0;
+}
+html, body {
+  overflow-x: hidden;  /* 🔒 يمنع التمرير الجانبي نهائيًا */
+  overflow-y: auto;    /* ✅ يظهر شريط التمرير فقط عند الحاجة */
+  padding: 0;
+}
+
+body::-webkit-scrollbar {
+  width: 0px;             /* 🔕 إخفاء الشريط الجانبي في Chrome/Edge */
+  background: transparent;
+}
+
