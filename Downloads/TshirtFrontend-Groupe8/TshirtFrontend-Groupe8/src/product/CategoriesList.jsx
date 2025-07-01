@@ -16,16 +16,21 @@ function CategoriesList() {
     <div className="flex flex-col items-center gap-6 my-6">
       {/* Catégories en haut */}
       <div className="categories-container">
-        
         {categories.map(cat => (
-          <NavLink
-            key={cat.id}
-            to={`/categorie/${cat.id}`}
-            className={({ isActive }) => isActive ? "active-link" : "category-link"}
-          >
-            {cat.nom}
-          </NavLink>
-        ))}
+  <div key={cat.id} className="category-card">
+    <NavLink
+      to={`/categorie/${cat.id}`}
+      className={({ isActive }) => isActive ? "active-link" : "category-link"}
+    >
+      <img
+        src={`/${cat.image}`}
+        alt={cat.nom}
+        className="category-image"
+      />
+      <p>{cat.nom}</p>
+    </NavLink>
+  </div>
+))}
       </div>
 
       {/* Retour en bas */}
@@ -35,3 +40,5 @@ function CategoriesList() {
 }
 
 export default CategoriesList;
+
+

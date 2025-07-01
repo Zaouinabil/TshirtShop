@@ -1,13 +1,24 @@
 /* -------------------- CategoriesList.css -------------------- */
 .categories-container {
-  @apply flex gap-4 justify-center my-6 flex-wrap;
+  @apply flex gap-6 justify-center my-6 flex-wrap;
 }
+
+.category-card {
+  @apply flex flex-col items-center w-40;
+}
+
 .category-link {
-  @apply text-white bg-blue-500 px-4 py-2 rounded hover:bg-blue-600;
+  @apply text-white bg-blue-500 px-4 py-2 rounded hover:bg-blue-600 flex flex-col items-center;
 }
+
 .active-link {
   @apply bg-blue-700 border-b-2 border-white;
 }
+
+.category-image {
+  @apply w-36 h-auto rounded mb-2;
+}
+
 .back-home-btn {
   @apply bg-gray-200 hover:bg-gray-300 text-gray-800 px-4 py-2 rounded transition;
 }
